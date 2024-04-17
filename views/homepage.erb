@@ -1,9 +1,11 @@
-<form action="/process_roll">
-  How many dice?
-  <input type="text" name="dice">
-  
-  How many sides?
-  <input type="text" name="sides">
+<h1>Dice Roll</h1>
 
-  <button>Go</button>
+<form action="/process_roll">
+  <label for="die">Number of dice to roll?</label>
+  <input id="die" type="text" name="dice">
+
+  <label for="side">How many sides per die?</label>
+  <input id="side" type="text" name="sides">
+
+  <button>Roll!</button>
   </form>
